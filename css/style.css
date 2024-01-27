@@ -64,15 +64,8 @@ body {
   justify-content: space-between;
   flex-shrink: 0;
   transition: all 0.5s linear;
-}
-
-
-.header.fixed {
-  position: fixed !important;
-  top: 0;
-  width: 100%;
-  z-index:9999;
-  transition: all 0.5s linear;
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  z-index: 9999;
 }
 
 .search-bar {
@@ -166,6 +159,7 @@ body {
 
 .book-slide {
   width: 100%;
+  margin-top: 5px;
 }
 
 .book {

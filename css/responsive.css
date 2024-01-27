@@ -1,0 +1,84 @@
+@media (max-width: 1103px) {
+    .book-cell {
+      width: 60%;
+    }
+  }
+
+@media (max-width: 765px) {
+    .book-cell {
+      width: 80%;
+    }
+  }
+
+@media (max-width: 575px) {
+    .book-cell {
+      width: 100%;
+    }
+  }
+
+@media (max-width: 458px) {
+    .book-photo {
+      width: 180px;
+    }
+    .book-voters {
+      display: none;
+    }
+  }
+
+@media (max-width: 420px) {
+    .book-see {
+      width: 120px;
+      font-size: 13px;
+    }
+    .book-photo {
+      width: 130px;
+    }
+    .book_content {
+      margin-top: 50px;
+    }
+  }
+
+@media (max-width: 360px) {
+    .rating > label:before {
+      font-size: 0.8em;
+    }
+  }
+
+@media (max-width: 1220px) {
+    .card-vote {
+      display: none;
+    }
+  }
+
+@media (max-width: 1085px) {
+    .book-rate > label {
+      font-size: 0.7em;
+    }
+  }
+
+@media (max-width: 1045px) {
+    .books-of {
+      display: none;
+    }
+  }
+
+@media (max-width: 725px) {
+    .browse-category, .search-bar {
+      display: none;
+    }
+    .header-title {
+      margin-right: auto;
+    }
+    .book-cards {
+      grid-template-columns: 1fr;
+    }
+    .book-types {
+      display: none;
+    }
+  }
+
+@media (max-width: 372px) {
+    .card-content {
+      padding: 20px;
+    }
+  }

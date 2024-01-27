@@ -47,8 +47,7 @@ body {
   height: 100vh;
   background-color: var(--page-bg-color);
   margin: 0 auto;
-  overflow-y:auto;
-  overflow-x: hidden;
+  overflow:hidden;
   box-shadow: 0px 2px 50px 10px rgba(0, 0, 0, 0.21);
 }
 
@@ -157,6 +156,11 @@ body {
   flex-shrink: 0;
 }
 /* -------------------------------------------------------- */
+
+.page_main_content{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
 
 /*----------------------- book-slide -----------------------*/
 
